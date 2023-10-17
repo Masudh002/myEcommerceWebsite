@@ -209,26 +209,15 @@ button:hover{
     cursor: pointer;
     color: #333;;
 }
-@media(max-width:1024px){
+@media(min-width:992px)and(max-width:1199px){
     .search-form{
-        top: 20%;
+        top: 16px;
         width: 25rem;
     }
 }
-@media(max-width:920px){
+@media(min-width:768px)and(max-width:991px){
     .search-form{
-        top: 10%;
-        width: 25rem;
-    }
-    .container{
-        margin-top: 80px;
-    }
-}
-@media(max-width:850px){
-    .search-form{
-        top: 10%;
-        width: 20rem;
-       height: 2.5rem;
+        top: 15%;
     }
     .search-form input{
         font-size: 24px;
@@ -241,89 +230,54 @@ button:hover{
         margin-top: 60px;
     }
 }
-@media(max-width:770px){
+@media(min-width:481px)and(max-width:767px){
 .search-form{
-    top: 11%;
+    top: 14%;
+    width: 17rem;
+    height: 2.5rem;
 }
 .header{
     width: 100%;
+    height: 60px;
 }
 .container{
     width: 100%;
+    margin-top: 50px;
 }
 #root{
-    width: 50%;
-    grid-gap: 10px;  
+    width: 40%;
+    grid-gap: 5px;  
 }
 .sidebar{
-    width: 50%;
-    margin-left:10px;
-    padding: 10px;
+    width: 60%;
+    margin-left:5px;
+    padding: 5px;
 }
-}
-@media(max-width:600px){
-    .search-form{
-        top: 11%;
-        width: 18rem;
-       height: 2.5rem;
-    }
-    .container{
-        margin-top: 50px;
-    } 
-    #root{
-        width: 60%;
-    }
-    .sidebar{
-        width: 40%;
-        margin:10px;
-        padding: 0px;
-    } 
-}
-@media(max-width:550px){
-   .search-form{
-    top: 16%;
-   }
-   .header{
-    height: 60px;
-}
-
-}
-@media(max-width:500px){
-    .search-form{
-        top: 11%;
-        width: 15rem;
-    }
-}
-@media(max-width:415px){
-    
-    .search-form{
-        top:11%;
-       height: 34px;
-    }
-    .search-form input{
-        font-size: 24px;
-        padding: .5rem;       
-    }
-    
-    .container{
-        width:100%;
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-}
-@media(max-width:393px){
-    .search-form{
-        top: 11%;
-    }
-}
-@media(max-width:380px){
+}    
+@media(max-width:480){
     .search-form{
         top: 14%;
+        width: 15rem;
     }
-}
-@media(max-width:360px){
-    .search-form{
-        top: 13%;
+    .search-form input{
+        font-size: 20px;
+        padding: .5rem;       
     }
-
+    .img-box{
+        height: 100px;
+    }
+    .images{
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .bottom{
+        margin-top: 2px;
+        height: 50px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    button{
+        padding: 4px 20px;       
+    }
 }
