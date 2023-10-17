@@ -223,7 +223,7 @@ button:hover{
 }
 @media(max-width:920px){
     .search-form{
-        top: 10%;
+        top: 16%;
         width: 25rem;
     }
     .container{
@@ -232,7 +232,6 @@ button:hover{
 }
 @media(max-width:850px){
     .search-form{
-        top: 15%;
         width: 20rem;
        height: 2.5rem;
     }
@@ -249,7 +248,7 @@ button:hover{
 }
 @media(max-width:770px){
 .search-form{
-    top: 14%;
+    top: 16%;
 }
 .header{
     width: 100%;
@@ -269,7 +268,7 @@ button:hover{
 }
 @media(max-width:600px){
     .search-form{
-        top: 14%;
+        top: 16%;
         width: 18rem;
        height: 2.5rem;
     }
@@ -340,7 +339,6 @@ button:hover{
 @media(max-width:415px){
     
     .search-form{
-        top:13%;
        height: 34px;
     }
     .search-form input{
