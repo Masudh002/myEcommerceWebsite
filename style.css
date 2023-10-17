@@ -37,7 +37,7 @@ body{
 }
 .search-form{
     position: absolute;
-    top: 14%;
+    top: 16%;
     background: lightcoral;
     width: 40rem;
     height: 3rem;
@@ -205,6 +205,12 @@ button:hover{
     max-height: 43px;
     border-radius: 50%;
 }
+.title{
+    font-size: 15px;
+}
+.price{
+    font-size: 15px;   
+}
 .fa-trash:hover{
     cursor: pointer;
     color: #333;;
@@ -226,7 +232,7 @@ button:hover{
 }
 @media(max-width:850px){
     .search-form{
-        top: 10%;
+        top: 15%;
         width: 20rem;
        height: 2.5rem;
     }
@@ -243,7 +249,7 @@ button:hover{
 }
 @media(max-width:770px){
 .search-form{
-    top: 11%;
+    top: 14%;
 }
 .header{
     width: 100%;
@@ -263,7 +269,7 @@ button:hover{
 }
 @media(max-width:600px){
     .search-form{
-        top: 11%;
+        top: 14%;
         width: 18rem;
        height: 2.5rem;
     }
@@ -290,7 +296,7 @@ button:hover{
 }
 @media(max-width:500px){
     .search-form{
-        top: 11%;
+        top: 13%;
         width: 15rem;
     }
     .img-box{
@@ -308,19 +314,33 @@ button:hover{
         font-size: 14px;
     }
     button{
-        width: 100%;
-        position: relative;
-        border: none;
-        border-radius: 5px;
-        background-color: lightcoral;
-        padding: 2px 7px;
-       
+        padding: 2px 7px;       
+    }
+    .cart-item{
+        padding: 0px;
+        margin: 5px 5px;
+    }
+    .row-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .rowimg{
+        max-width: 36px;
+        max-height: 36px;
+        border-radius: 50%;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 12px;   
     }
 }
 @media(max-width:415px){
     
     .search-form{
-        top:11%;
+        top:13%;
        height: 34px;
     }
     .search-form input{
@@ -334,20 +354,4 @@ button:hover{
         margin-top: 20px;
     }
     
-}
-@media(max-width:393px){
-    .search-form{
-        top: 11%;
-    }
-}
-@media(max-width:380px){
-    .search-form{
-        top: 14%;
-    }
-}
-@media(max-width:360px){
-    .search-form{
-        top: 13%;
-    }
-
 }

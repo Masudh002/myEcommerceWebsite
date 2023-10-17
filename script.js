@@ -90,8 +90,8 @@ function displaycart(a){
                 <div class='row-img'>
                   <img class='rowimg' src =${image}>
                 </div>
-                <p style='font-size:15px;'>${title}</p>
-                <h2 style='font-size:15px;'>KSH ${price}.00</h2>`+
+                <p  class='title'>${title}</p>
+                <h2 class='price'>KSH ${price}.00</h2>`+
                 "<i class='fas fa-trash' onclick='delElement("+(j++)+")'></i></div>"
             );
         }).join('');
